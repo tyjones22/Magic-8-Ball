@@ -1,0 +1,93 @@
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+public class Magic_8_Ball
+{
+   public static void main(String []args)
+   {
+// makes scanner 
+       Scanner qu= new Scanner(System.in);
+ 
+      
+ 
+       System.out.println("\n\n\n\n");
+       System.out.println("Welcome to the Magic 8 Ball.");
+      
+  
+       System.out.print("\n");
+ 
+       String question = JOptionPane.showInputDialog("What is your question?"); // makes GUI to ask question 
+      
+ 
+       int choice = (int)(Math.random()*20+1); 
+// random number generator 
+       if (choice==1)
+       {String answer="It is certain.";}
+ 
+       else if (choice==2)
+       {String answer="It is decidely so.";}
+ 
+       else if (choice==3)
+       {String answer="WIthout a doubt.";}
+ 
+       else if (choice==4)
+       {String answer="Yes-definitely.";}
+ 
+       else if (choice==5)
+       {String answer="You may rely on it.";}
+ 
+       else if (choice==6)
+       {String answer="As I see it, yes.";}
+ 
+       else if (choice==7)
+       {String answer="Most likely.";}
+ 
+       else if (choice==8)
+       {String answer="Outlook good.";}
+ 
+       else if (choice==9)
+       {String answer="Yes.";}
+ 
+       else if (choice==10)
+       {String answer="SIgns point to yes.";}
+ 
+       else if (choice==11)
+       {String answer="Reply hazy, try again.";}
+ 
+       else if (choice==12)
+       {String answer="Ask again later.";}
+ 
+       else if (choice==13)
+       {String answer="Better not tell you now.";}
+ 
+       else if (choice==14)
+       {String answer="Cannot predict now.";}
+ 
+       else if (choice==15)
+       {String answer="Concentrate and ask again.";}
+ 
+       else if (choice==16)
+       {String answer="Don't count on it.";}
+ 
+       else if (choice==17)
+       {String answer="My reply is no.";}
+ 
+       else if (choice==18)
+       {String answer="My sources say so.";}
+ 
+       else if (choice==19)
+       {String answer="Outlook not so good.";}
+ 
+       else if (choice==20)
+       {String answer="Very doubtful.";}
+ 
+      
+ 
+       JOptionPane.showMessageDialog(null," The answer is "+ answer); // makes result GUI 
+  
+   }
+}
+ 
+ 
+ 
+ 
+ 
