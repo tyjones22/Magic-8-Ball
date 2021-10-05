@@ -78,7 +78,6 @@ public class Magic_8_Ball
         else if (choice==20)
         { answer="Very doubtful.";}
 
-        //questionUpper= question.
 
 
         String questionUpper= question.substring(0, 1).toUpperCase() + question.substring(1); // uppercases the first letter
