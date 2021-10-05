@@ -16,7 +16,6 @@ public class Magic_8_Ball
         String result = "null";
         int size = question.length();
         char lastChar = question.charAt(question.length()-1);
-      //  String questionUpper;
         int choice = (int)(Math.random()*20+1);
         if (choice==1)
         {  answer="It is certain.";}
