@@ -17,74 +17,75 @@ public class Magic_8_Ball
         int size = question.length();
         char lastChar = question.charAt(question.length()-1);
         int choice = (int)(Math.random()*20+1);
+        
         if (choice==1)
-        {  answer="It is certain.";}
+            {answer="It is certain.";}
 
         else if (choice==2)
-        {  answer="It is decidely so.";}
+            {answer="It is decidely so.";}
 
         else if (choice==3)
-        {  answer="WIthout a doubt.";}
+            {answer="WIthout a doubt.";}
 
         else if (choice==4)
-        {  answer="Yes-definitely.";}
+            {answer="Yes-definitely.";}
 
         else if (choice==5)
-        {  answer="You may rely on it.";}
+            {answer="You may rely on it.";}
 
         else if (choice==6)
-        {  answer="As I see it, yes.";}
+            {answer="As I see it, yes.";}
 
         else if (choice==7)
-        {  answer="Most likely.";}
+            {answer="Most likely.";}
 
         else if (choice==8)
-        {  answer="Outlook good.";}
+            {answer="Outlook good.";}
 
         else if (choice==9)
-        {  answer="Yes.";}
+            {answer="Yes.";}
 
         else if (choice==10)
-        {  answer="SIgns point to yes.";}
+            {answer="SIgns point to yes.";}
 
         else if (choice==11)
-        {  answer="Reply hazy, try again.";}
+            {answer="Reply hazy, try again.";}
 
         else if (choice==12)
-        {  answer="Ask again later.";}
+            {answer="Ask again later.";}
 
         else if (choice==13)
-        {  answer="Better not tell you now.";}
+            {answer="Better not tell you now.";}
 
         else if (choice==14)
-        {  answer="Cannot predict now.";}
+            {answer="Cannot predict now.";}
 
         else if (choice==15)
-        {  answer="Concentrate and ask again.";}
+            {answer="Concentrate and ask again.";}
 
         else if (choice==16)
-        {  answer="Don't count on it.";}
+            {answer="Don't count on it.";}
 
         else if (choice==17)
-        {  answer="My reply is no.";}
+            {answer="My reply is no.";}
 
         else if (choice==18)
-        { answer="My sources say so.";}
+            {answer="My sources say so.";}
 
         else if (choice==19)
-        { answer="Outlook not so good.";}
+            {answer="Outlook not so good.";}
 
         else if (choice==20)
-        { answer="Very doubtful.";}
+            {answer="Very doubtful.";}
 
 
 
         String questionUpper= question.substring(0, 1).toUpperCase() + question.substring(1); // uppercases the first letter
 
        if (lastChar == '?')  // adds a "?"" if there isn't one
-        {result = questionUpper + "\n"+answer;}
+            {result = questionUpper + "\n"+answer;}
         else
-        {result = questionUpper + "?\n"+answer;}
+            {result = questionUpper + "?\n"+answer;}
         
         JOptionPane.showMessageDialog(null, result); // gives gui with result
     
