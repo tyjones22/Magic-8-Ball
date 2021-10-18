@@ -44,7 +44,7 @@ public class Magic_8_Ball
        {System.out.println("Yes.");}
  
        else if (choice==10)
-       {System.out.println("SIgns point to yes.");}
+       {System.out.println("Signs point to yes.");}
  
        else if (choice==11)
        {System.out.println("Reply hazy, try again.");}
