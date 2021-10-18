@@ -46,7 +46,7 @@ public class Magic_8_Ball
             {answer="Yes.";}
 
         else if (choice==10)
-            {answer="SIgns point to yes.";}
+            {answer="Signs point to yes.";}
 
         else if (choice==11)
             {answer="Reply hazy, try again.";}
