@@ -23,7 +23,7 @@ public class Magic_8_Ball
        {System.out.println("It is decidely so.");}
  
        else if (choice==3)
-       {System.out.println("WIthout a doubt.");}
+       {System.out.println("Without a doubt.");}
  
        else if (choice==4)
        {System.out.println("Yes-definitely.");}
